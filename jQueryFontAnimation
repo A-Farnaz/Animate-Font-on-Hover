@@ -1,0 +1,12 @@
+<script>
+$(document).ready(function() {
+$("#kids_inner_nav a .text_container").hover(function(){
+   $(this).children("span.main_label").animate({fontSize: "40px"}, 300);
+   $(this).children("span.secondary_label").animate({fontSize: "20px"}, 300); 
+}, function() {
+  $(this).children("span.main_label").animate({fontSize: "35px"}, 300);  
+   $(this).children("span.secondary_label").animate({fontSize: "16px"}, 300); 
+});
+});
+
+</script> 
